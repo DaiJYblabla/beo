@@ -117,7 +117,7 @@ body{
 	left:0;
 	z-index: 2000;
 }
-.left,.right{
+.top-box .left,.top-box .right{
 	width:128px;
 	height: 100%;
 	text-align: center;
@@ -125,17 +125,17 @@ body{
 	font-size: 12px;
 	color: #fff;
 }
-.left{
+.top-box .left{
 	background-image: url(product.png);
 	background-repeat: no-repeat;
 	background-position: left center;
 }
-.right{
+.top-box .right{
 	background-image: url(menu.png);
 	background-repeat: no-repeat;
 	background-position: right center;
 }
-.center{
+.top-box .center{
 	padding: 12px;
 	width: 191px;
 	height: 100%;
@@ -266,4 +266,52 @@ body{
 	letter-spacing: normal;
 	font-size: 12px; 
 	color: #000;
+}
+.footer {
+    width: 996px;
+    height: 81px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.footer .left {
+    width: 349px;
+    height: 62px;
+    padding: 20px 14px;
+    display: flex;
+}
+
+.footer .left .world {
+    width: 22px;
+    height: 22px;
+    background: url("5.png") no-repeat left center;
+}
+
+.footer .left a {
+    height: 22px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 22px;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+.footer .right {
+    width: 629px;
+    height: 82px;
+    padding: 20px 14px;
+}
+
+.footer .right a {
+    height: 19px;
+    margin-left: 16px;
+    color: #000;
+    line-height: 19px;
+    font-weight: 400;
+    text-decoration: none;
+    float: right;
+    font-size: 12px;
 }
