@@ -296,11 +296,11 @@ body{
 }
 
 .info-item:nth-child(1) .icon {
-    background: #000 url("image/3.png") no-repeat center center;
+    background: #000 url("3.png") no-repeat center center;
 }
 
 .info-item:nth-child(2) .icon {
-    background: #000 url("image/4.png") no-repeat center center;
+    background: #000 url("4.png") no-repeat center center;
 }
 
 .info-item h5 {
@@ -339,7 +339,7 @@ body{
 .info-item input {
     display: block;
     outline: none;
-    height: 50px;
+    height: 47px;
     width: 372px;
     padding: 6px 12px;
     border: 1px solid #ccc;
@@ -351,7 +351,7 @@ body{
 }
 
 .info-item .search {
-    margin-top: 130px;
+    margin-top: 120px;
 }
 
 .footer {
